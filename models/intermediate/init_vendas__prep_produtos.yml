@@ -1,0 +1,42 @@
+models:
+  - name: int_vendas__prep_produtos
+    description: Modelo que enriquece os dados de produtos com categoria e fornecedor
+    columns:
+      - name: PK_PRODUTO
+        description: TBD.
+        tests:
+          - unique
+          - not_null
+
+      - name: NM_PRODUTO
+        description: TBD.
+
+      - name: QUANTIDADE_POR_UNIDADE
+        description: TBD.
+
+      - name: PRECO_POR_UNIDADE
+        description: TBD.
+
+      - name: UNIDADE_EM_ESTOQUE
+        description: TBD.
+
+      - name: UNIDADE_POR_PEDIDO
+        description: TBD.
+
+      - name: NIVEL_DE_PEDIDO
+        description: TBD.
+
+      - name: EH_DESCONTINUADO
+        description: TBD.
+
+      - name: NOME_CATEGORIA
+        description: TBD.
+
+      - name: NOME_FORNECEDOR
+        description: TBD.
+
+      - name: CIDADE_FORNECEDOR
+        description: TBD.
+
+      - name: PAIS_FORNECEDOR
+        description: TBD.
